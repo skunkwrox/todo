@@ -1,8 +1,8 @@
 module todo
 
-        go 1.14
+go 1.14
 
-        require (
+require (
         github.com/gin-gonic/gin v0.0.0-20150626140855-4cc2de6207f4
         github.com/heroku/x v0.0.0-20171004170240-705849e307dd
         github.com/manucorporat/sse v0.0.0-20150604091100-c142f0f1baea // indirect
@@ -14,4 +14,4 @@ module todo
         github.com/gorilla/mux
         github.com/jmoiron/sqlx
         github.com/lib/pq
-        )
+)
